@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background-color: rgb(235, 232, 228);
+    color: rgb(129, 129, 129);
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header{
+    color: white;
+    background-image: url(/images/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 40px;
+    margin-top: 10px;
+    
+}
+
+.nav-bar li a:link,
+.nav-bar li a:visited {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px, solid, transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+    border-bottom: 3px solid #e67e22;
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 70px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 180%;
+    width: 50%;
+    margin-left: 25%;
+    color: rgb(167, 164, 164);
+    word-spacing: 4px;
+    
+}
+
+h3 span{
+    color: white;
+}
+
+h3 a:link,
+h3 a:visited{
+    text-decoration: none;
+   color: white;
+
+}
+
+header .hero-text-box hr {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 18px;
+    border-color: rgba(73, 69, 69, 0.3);
+}
+
+.row {
+    margin-left: 38%;
+    margin-top: 25px;
+    font-size: 160%;
+}
+
+.row i{
+    margin-left: 40px;
+}
+
+.row a:link,
+.row a:visited{
+    text-decoration: none;
+   color: white;
+}
+
+.about-arrow a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+
+
+
