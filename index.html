@@ -12,25 +12,25 @@
 </head>
 
 <body>
-    <header>
+    <header class="js--section-home">
         <nav>
-            <div>
-                <ul class="nav-bar">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li> 
-                    <li><a href="#education">Resume</a></li>
-                    <li><a href="#work">Works</a></li>
-                    <li><a href="#slider">Testimonials</a></li>
+            <div class="nav-bar">
+                <ul class="main-nav">
+                    <li><a href="#" class="js--scroll-to-home">Home</a></li>
+                    <li><a href="#" class="js--scroll-to-about">About</a></li> 
+                    <li><a href="#" class="js--scroll-to-resume">Resume</a></li>
+                    <li><a href="#" class="js--scroll-to-work">Works</a></li>
+                    <li><a href="#" class="js--scroll-to-testimonial">Testimonials</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="hero-text-box" id="home">
+        <div class="hero-text-box" >
             <h1>I'm Raghav Mittal.</h1>
             <h3>I'm an <span> ambitious Programmer</span>, <span>a passionate Developer </span> and <span> a persistent
                     Student</span> creating awesome and
                 effective Programs for different algorithmic puzzles and Machine Learning Problems. I am an
-                <span>expert</span> at creating <span>digital masterpieces</span>. Let's <a href="#">start scrolling</a>
-                and learn more <a href="#">about me</a>.
+                <span>expert</span> at creating <span>digital masterpieces</span>. Let's <a href="#about" class="js--scroll-to-about">start scrolling</a>
+                and learn more <a href="#about" class="js--scroll-to-about">about me</a>.
             </h3>
             <hr>
             <div class="row">
@@ -44,11 +44,11 @@
 
             <div class="about-arrow">
 
-                <a href="#about"><i class="flaticon-arrow-down-sign-to-navigate"></i></a>
+                <a href="#"><i class="flaticon-arrow-down-sign-to-navigate js--scroll-to-about"></i></a>
             </div>
         </div>
     </header>
-    <section>
+    <section class="section-about js--section-about">
         <div class="about-section" id="about">
             <div class="Profile-image">
                 <img src="/images/profile.jpg" alt="profile">
@@ -84,7 +84,7 @@
         </div>
     </section>
     <section>
-        <div class="row-education" id="education">
+        <div class="row-education js--section-resume">
             <div class="schooling">
                 <h1>Education</h1>
             </div>
@@ -154,7 +154,7 @@
     </section>
 
     <section>
-        <div class="project" id="work">
+        <div class="project js--section-work">
             <h1>checkout some of my projects </h1>
         <div>
             <a href="https://github.com/Raghavmittal648/omni-food" class="omnifood"><img src="/images/logo.png" alt=""></a>
@@ -169,7 +169,7 @@
 
 
     <section>
-    <div id="slider">
+    <div id="slider" class="js--section-testimonial">
         <input type="radio" name="slider" id="slide1" checked>
         <input type="radio" name="slider" id="slide2">
         <input type="radio" name="slider" id="slide3">
@@ -213,7 +213,7 @@
     </div>
     </section>
     <footer>
-        <div class="about-arrow-up">
+        <div class="about-arrow-up js--scroll-to-home">
         <a href="#" class="arrow-up"><i class="flaticon-up-arrow"></i></a>
     </div> 
         <div class="icons">
@@ -225,6 +225,12 @@
             <a href="https://in.linkedin.com/"> <i class="flaticon-linkedin"></i></a>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
